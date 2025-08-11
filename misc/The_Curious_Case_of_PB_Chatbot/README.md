@@ -24,6 +24,6 @@ Prompt Injection lets us influence the model to ignore or override its original 
     - Chose **acrostic poems**, where the first letters of each line is a character of the flag.
    - This bypassed keyword-based filters, as the sensitive text appeared embedded in an innocuous poem.
 
-![Flag Revealed](misc/The_Curious_Case_of_PB_Chatbot/images/flag.png)
+![Flag Revealed](images/flag.png)
 
 **Flag:** `pbctf{success_yukididit}`
