@@ -10,7 +10,7 @@ After dominating every field they've entered, Point Blank Team recently caught c
 
 **Challenge URL:** `https://crypto.pbctf.live`
 
-## Initial Analysis
+## Solution Path
 
 ### Step 1: Exploring the Application
 
@@ -195,6 +195,8 @@ aws sts get-caller-identity
 
 ### Step 11: Discovering S3 Access
 
+Now that we have AWS credentials, let's explore what resources this EC2 instance can access. Since this is a trading application that mentions storing "digital treasures" and "valuable configurations" in the challenge description, S3 is a prime candidate for data storage.
+
 List available S3 buckets:
 
 ```bash
@@ -214,7 +216,6 @@ aws s3 ls s3://pbctf-4/
 ```
 
 ![Flag Bucket Contents](images/bucket_contents.png)
-*Screenshot location: Show the bucket contents with the suspicious image file*
 
 We find an interesting file: `finally_4ft3r_18_y34rs.jpg`
 
