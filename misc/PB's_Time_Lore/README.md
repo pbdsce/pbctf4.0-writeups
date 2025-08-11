@@ -47,6 +47,6 @@ Key observation:
 
 3. **Search using embeddings**
 
-![Search in UI](misc/PB's Time Lore/images/search.png)
+![Search in UI](misc/PB's_Time_Lore/images/search.png)
 
 **Flag:** `pbctf{v3c70r_db_1s_g00d}`
