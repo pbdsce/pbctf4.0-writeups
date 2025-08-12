@@ -47,7 +47,6 @@ Key observation:
 
 3. **Search using embeddings**
 
-<img width="1090" height="699" alt="SEARCH THROUGH TIME" src="https://github.com/user-attachments/assets/ea9fd7bf-e4ae-4f6f-bf5a-e3ed4d638e98" />
-
+![Search in UI](images/search.png)
 
 **Flag:** `pbctf{v3c70r_db_1s_g00d}`
